@@ -46,4 +46,4 @@ def auto_annotate(data, det_model="yolov8x.pt", device="", output_dir=None):
                     height = (box[3] - box[1]) / img_height
                     f.write(f"{class_id} {x_center} {y_center} {width} {height}\n")
 
-auto_annotate(data=r'images16', det_model=r"best.pt",output_dir=r'labels16')
+auto_annotate(data=r'Images Folder', det_model=r"Model path",output_dir=r'LABELS folder')

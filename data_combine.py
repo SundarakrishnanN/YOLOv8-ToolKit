@@ -40,8 +40,10 @@ def combine_folders(folder1, folder2, destination_folder):
                 shutil.copy2(src_file, new_dest_file)
 
 
-folder1 = 'v9_data/v9_data_combined'
-folder2 = 'v9_data/half'
-destination_folder = 'v9_data/v9_data_full'
+folder1 = 'Folder 1'
+folder2 = 'Folder 2'
+destination_folder = 'Output Folder'
+
+#Note both the folder1 and 2 must be in the same format.
 
 combine_folders(folder1, folder2, destination_folder)
